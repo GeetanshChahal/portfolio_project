@@ -219,10 +219,18 @@ export const workExperience = [
   {
     id: 1,
     title: "SDE 1",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Enhanced the Warehouse Management and Billing Systems using JS, ReactJS, NextJS, TypeScript, and AntDesign. Led the development and maintenance of the mobile app with React Native, integrating business logic.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
     durationOfWork: "June/2024 - November/2024 (6 months)",
+  },
+  {
+    id: 4,
+    title: "SDE Intern",
+    desc: "Worked on both frontend and backend of the Warehouse Management System using JS, ReactJS, TypeScript, React Native, Java, Spring Boot and AntDesign.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+    durationOfWork: "July/2023 - May/2024 (11 months)",
   },
   // {
   //   id: 2,
@@ -238,14 +246,6 @@ export const workExperience = [
   //   className: "md:col-span-2", // change to md:col-span-2
   //   thumbnail: "/exp3.svg",
   // },
-  {
-    id: 4,
-    title: "SDE Intern",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-    durationOfWork: "July/2023 - May/2024 (11 months)",
-  },
 ];
 
 export const socialMedia = [
