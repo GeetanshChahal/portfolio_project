@@ -14,20 +14,29 @@ export const FlipWords = ({
 }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState<boolean>(false);
+  const [mounted, setMounted] = useState(false); // Track whether component is mounted
 
-  // thanks for the fix Julian - https://github.com/Julian-AT
   const startAnimation = useCallback(() => {
     const word = words[words.indexOf(currentWord) + 1] || words[0];
     setCurrentWord(word);
     setIsAnimating(true);
   }, [currentWord, words]);
 
+  // Ensure that animations only start after the component has mounted
   useEffect(() => {
+    setMounted(true); // Set mounted to true after initial render
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return; // Prevent animation before mount
+
     if (!isAnimating)
       setTimeout(() => {
         startAnimation();
       }, duration);
-  }, [isAnimating, duration, startAnimation]);
+  }, [isAnimating, duration, startAnimation, mounted]);
+
+  if (!mounted) return null; // Prevent rendering before mounted to avoid hydration error
 
   return (
     <AnimatePresence
@@ -63,7 +72,6 @@ export const FlipWords = ({
         )}
         key={currentWord}
       >
-        {/* edit suggested by Sajal: https://x.com/DewanganSajal */}
         {currentWord.split(" ").map((word, wordIndex) => (
           <motion.span
             key={word + wordIndex}

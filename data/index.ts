@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.png",
+    img: "/avtar_enhanced.png",
     spareImg: "",
   },
   {
@@ -72,35 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Short-Circuit Evaluation in JS",
+    des: "Short-Circuit Evaluation in JavaScript: Boost Performance and Simplify Logic!",
+    img: "/shortcircuit.png",
+    iconLists: ["/javascript.svg", "/react.svg"],
+    link: "https://dev.to/geetanshchahal/short-circuit-evaluation-in-javascript-boost-performance-and-simplify-logic-4m79",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Short-Circuit Evaluation in JS",
+    des: "Short-Circuit Evaluation in JavaScript: Boost Performance and Simplify Logic!",
+    img: "/p1.svg",
+    iconLists: ["/javascript.svg", "/react.svg"],
+    link: "https://dev.to/geetanshchahal/short-circuit-evaluation-in-javascript-boost-performance-and-simplify-logic-4m79",
   },
 ];
 
@@ -218,32 +202,34 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "SDE 1",
+    desc: "Enhanced the Warehouse Management and Billing Systems using JS, ReactJS, NextJS, TypeScript, and AntDesign. Led the development and maintenance of the mobile app with React Native, integrating business logic.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    durationOfWork: "June/2024 - November/2024 (6 months)",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "SDE Intern",
+    desc: "Worked on both frontend and backend of the Warehouse Management System using JS, ReactJS, TypeScript, React Native, Java, Spring Boot and AntDesign.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+    durationOfWork: "July/2023 - May/2024 (11 months)",
   },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Dev - JSM Tech",
+  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
 ];
 
 export const socialMedia = [

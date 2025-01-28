@@ -12,6 +12,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 import StepLoader from "@/components/StepLoader";
+import Blogs from "@/components/Blogs";
 
 const Home = () => {
   return (
@@ -23,7 +24,9 @@ const Home = () => {
         <Grid />
         <Clients />
         <Experience />
+        <Blogs />
         <RecentProjects />
+        {/* <RecentProjects /> */}
         {/* <Approach /> */}
         {/* Rate my Portfolio */}
         <Footer />
