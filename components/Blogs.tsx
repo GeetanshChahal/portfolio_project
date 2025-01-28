@@ -6,11 +6,11 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import { Meteors } from "./ui/Meteors";
 
-const RecentProjects = () => {
+const Blogs = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        Project <span className="text-purple">Highlights</span>
+        Explore My <span className="text-purple">Blogs</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -80,4 +80,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default Blogs;
