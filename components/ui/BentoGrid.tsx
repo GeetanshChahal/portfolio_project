@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
@@ -57,6 +57,13 @@ export const BentoGridItem = ({
   const rightLists = ["Servers", "Maths", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
+
+  const [isClient, setIsClient] = useState(false); // New state to detect client-side rendering
+
+  useEffect(() => {
+    // This will ensure that the code inside the useEffect runs only on the client
+    setIsClient(true);
+  }, []);
 
   const defaultOptions = {
     loop: copied,
@@ -188,7 +195,7 @@ export const BentoGridItem = ({
               ))}
             </div>
           )}
-          {id === 6 && (
+          {isClient && id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
