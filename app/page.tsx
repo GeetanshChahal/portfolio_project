@@ -22,9 +22,9 @@ const Home = () => {
         {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
         {/* <Grid /> */}
-        {/* <Clients /> */}
-        {/* <Experience /> */}
-        {/* <Blogs /> */}
+        <Clients />
+        <Experience />
+        <Blogs />
         {/* <RecentProjects /> */}
         {/* <RecentProjects /> */}
         {/* <Approach /> */}
