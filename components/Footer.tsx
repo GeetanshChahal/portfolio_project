@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+      <div className="w-full absolute left-0 -bottom-10 min-h-96">
         <img
           src="/footer-grid.svg"
           alt="grid"
@@ -17,14 +17,10 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Get in touch today, and let&apos;s make the{" "}
+          <span className="text-purple">goals</span> happen!
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:geetanshchahal.dev@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -37,7 +33,7 @@ const Footer = () => {
           Crafted with ❤️ in India ✨
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-2">
           {socialMedia.map((info) => (
             <div
               key={info.id}

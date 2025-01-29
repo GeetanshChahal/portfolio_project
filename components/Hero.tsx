@@ -1,5 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
-import dynamic from "next/dynamic";
+import { FaRegEnvelope } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -48,10 +47,10 @@ const Hero = () => {
             Developer based in India.
           </p>
 
-          <a href="#about">
+          <a href="mailto:geetanshchahal.dev@gmail.com">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
+              title=" Let's Connect"
+              icon={<FaRegEnvelope />}
               position="right"
             />
           </a>
