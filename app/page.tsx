@@ -21,7 +21,7 @@ const Home = () => {
         <StepLoader />
         {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
-        {/* <Grid /> */}
+        <Grid />
         <Clients />
         <Experience />
         <Blogs />
