@@ -21,11 +21,11 @@ const Home = () => {
         {/* <StepLoader /> */}
         {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
-        <Grid />
-        <Clients />
-        <Experience />
-        <Blogs />
-        <RecentProjects />
+        {/* <Grid /> */}
+        {/* <Clients /> */}
+        {/* <Experience /> */}
+        {/* <Blogs /> */}
+        {/* <RecentProjects /> */}
         {/* <RecentProjects /> */}
         {/* <Approach /> */}
         {/* Rate my Portfolio */}
