@@ -8,7 +8,7 @@ import { Meteors } from "./ui/Meteors";
 
 const Blogs = () => {
   return (
-    <div className="pt-20 pb-5">
+    <div id="blogs" className="pt-20 pb-5">
       <h1 className="heading">
         Explore <span className="text-purple">Blogs</span>
       </h1>

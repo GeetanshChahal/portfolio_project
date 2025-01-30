@@ -34,7 +34,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -92,8 +91,14 @@ export const BentoGridItem = ({
       }}
     >
       {/* add img divs */}
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
+      <div
+        className={`${
+          id === 6 &&
+          "flex justify-center bg-gradient-to-r from-[#040b3d] to-[#33165e]"
+        } h-full`}
+      >
         <div className="w-full h-full absolute">
+          {id === 2 && <Meteors />}
           {img && (
             <img
               src={img}

@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading lg:max-w-[45vw] mb-2">
           Get in touch today, and let&apos;s make the{" "}
           <span className="text-purple">goals</span> happen!
         </h1>
@@ -34,12 +34,14 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 mt-2">
-          {socialMedia.map((info) => (
+          {socialMedia?.map((info) => (
             <div
-              key={info.id}
+              key={info?.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              <a href={info?.url} target="_blank" rel="noopener noreferrer">
+                <img src={info?.img} alt="icons" width={20} height={20} />
+              </a>
             </div>
           ))}
         </div>

@@ -8,7 +8,7 @@ import { Meteors } from "./ui/Meteors";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div id="projects" className="py-20">
       <h1 className="heading">
         Project <span className="text-purple">Highlights</span>
       </h1>
@@ -65,12 +65,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                {/* <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check It Out
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                </div> */}
               </div>
             </div>
             {/* </a> */}
