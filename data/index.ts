@@ -1,8 +1,25 @@
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+import {
+  FaBook,
+  FaBriefcase,
+  FaDraftingCompass,
+  FaHome,
+  FaLaptopCode,
+  FaRegUserCircle,
+} from "react-icons/fa";
+import { IconType } from "react-icons";
+
+export const navItems: {
+  id: number;
+  name: string;
+  link: string;
+  icon: IconType;
+}[] = [
+  { id: 1, name: "", link: "", icon: FaHome },
+  { id: 2, name: "About", link: "#about", icon: FaRegUserCircle },
+  { id: 3, name: "Tech Stack", link: "#tech-stack", icon: FaLaptopCode },
+  { id: 4, name: "Experience", link: "#work-experience", icon: FaBriefcase },
+  { id: 5, name: "Blogs", link: "#blogs", icon: FaBook },
+  { id: 6, name: "Projects", link: "#projects", icon: FaDraftingCompass },
 ];
 
 export const gridItems = [
@@ -18,11 +35,11 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Let's Innovate Together !",
-    description: "",
+    title: "The time is always right to do what is right! 🚀",
+    description: "~ Martin Luther King Jr.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-top",
+    titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
@@ -80,9 +97,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Short-Circuit Evaluation in JS",
-    des: "Short-Circuit Evaluation in JavaScript: Boost Performance and Simplify Logic!",
-    img: "/p1.svg",
+    title: "Decoding the React Logo",
+    des: "React Logo: Story Behind the Iconic Design!",
+    img: "/react-logo-blog.png",
     iconLists: ["/javascript.svg", "/react.svg"],
     link: "https://dev.to/geetanshchahal/short-circuit-evaluation-in-javascript-boost-performance-and-simplify-logic-4m79",
   },

@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { IconType } from "react-icons";
 
 export const FloatingNav = ({
   navItems,
@@ -16,7 +17,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
+    icon?: IconType;
   }[];
   className?: string;
 }) => {
@@ -79,10 +80,15 @@ export const FloatingNav = ({
               "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
+            <span className="block md:hidden">
+              {navItem?.icon && navItem?.id !== 1 && <navItem.icon />}
+            </span>
             {/* add !cursor-pointer */}
+            {navItem?.icon && navItem?.id === 1 && <navItem.icon />}
             {/* remove hidden sm:block for the mobile responsive */}
-            <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+            <span className=" text-sm !cursor-pointer hidden sm:block">
+              {navItem.name}
+            </span>
           </Link>
         ))}
         {/* remove this login btn */}
