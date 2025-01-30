@@ -8,7 +8,7 @@ import { Meteors } from "./ui/Meteors";
 
 const RecentProjects = () => {
   return (
-    <div className="py-10">
+    <div className="py-20">
       <h1 className="heading">
         Project <span className="text-purple">Highlights</span>
       </h1>
