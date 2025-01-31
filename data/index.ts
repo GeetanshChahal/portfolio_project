@@ -97,11 +97,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Decoding the React Logo",
-    des: "React Logo: Story Behind the Iconic Design!",
+    title: "Decoding React's Name & Logo",
+    des: "React: Unveiling the Story Behind Its Name and Iconic Logo!",
     img: "/react-logo-blog.png",
     iconLists: ["/javascript.svg", "/react.svg"],
-    link: "https://dev.to/geetanshchahal/short-circuit-evaluation-in-javascript-boost-performance-and-simplify-logic-4m79",
+    link: "https://dev.to/geetanshchahal/react-unveiling-the-story-behind-its-name-and-iconic-logo-56ho",
   },
 ];
 

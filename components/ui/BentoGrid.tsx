@@ -5,8 +5,11 @@ import { cn } from "@/lib/utils";
 
 // import GridGlobe from "./GridGlobe";
 // import animationData from "@/data/confetti.json";
+import dynamic from "next/dynamic";
 import MagicButton from "../MagicButton";
-import { Meteors } from "./Meteors";
+const Meteors = dynamic(() => import("./Meteors").then((m) => m.Meteors), {
+  ssr: false,
+});
 import { socialMedia } from "@/data";
 
 export const BentoGrid = ({
@@ -93,7 +96,7 @@ export const BentoGridItem = ({
       {/* add img divs */}
       <div
         className={`${
-          id === 6 &&
+          (id === 6 || id === 2) &&
           "flex justify-center bg-gradient-to-r from-[#040b3d] to-[#33165e]"
         } h-full`}
       >

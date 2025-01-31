@@ -41,11 +41,11 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <span className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m a
             <FlipWords words={["Frontend", "Backend", "Software"]} />
             Developer based in India.
-          </p>
+          </span>
 
           <a href="mailto:geetanshchahal.dev@gmail.com">
             <MagicButton
