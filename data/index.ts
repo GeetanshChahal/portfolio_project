@@ -91,7 +91,7 @@ export const projects = [
     id: 1,
     title: "Short-Circuit Evaluation in JS",
     des: "Short-Circuit Evaluation in JavaScript: Boost Performance and Simplify Logic!",
-    img: "/shortcircuit.png",
+    img: "/short-circuit-update.png",
     iconLists: ["/javascript.svg", "/react.svg"],
     link: "https://dev.to/geetanshchahal/short-circuit-evaluation-in-javascript-boost-performance-and-simplify-logic-4m79",
   },
