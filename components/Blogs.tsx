@@ -2,7 +2,7 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { projects } from "@/data";
+import { blogs, projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import { Meteors } from "./ui/Meteors";
 
@@ -13,7 +13,7 @@ const Blogs = () => {
         Explore <span className="text-purple">Blogs</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-2">
-        {projects.map((item) => (
+        {blogs?.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[18rem] flex items-center justify-center  sm:w-96 w-[80vw] "
             key={item.id}

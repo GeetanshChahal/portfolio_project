@@ -86,7 +86,7 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+export const blogs = [
   {
     id: 1,
     title: "Short-Circuit Evaluation in JS",
@@ -102,6 +102,31 @@ export const projects = [
     img: "/react-logo-blog.png",
     iconLists: ["/javascript.svg", "/react.svg"],
     link: "https://dev.to/geetanshchahal/react-unveiling-the-story-behind-its-name-and-iconic-logo-56ho",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "CUScholars",
+    des: "A social media app for Chitkara Uni students to share memories and events.",
+    img: "/cuscholars_image.png",
+    iconLists: [
+      "/javascript.svg",
+      "/react.svg",
+      "/mongodb-logo.svg",
+      "/node-logo.svg",
+      "npm-logo.svg",
+    ],
+    link: "https://github.com/GeetanshChahal/CUScholars",
+  },
+  {
+    id: 2,
+    title: "Auction Hunters",
+    des: "An auction website with various functionalities and attractive GUI",
+    img: "/auction_hunters.png",
+    iconLists: ["/javascript.svg", "/react.svg", "firebase_logo.svg"],
+    link: "https://github.com/GeetanshChahal/auction-hunters",
   },
 ];
 

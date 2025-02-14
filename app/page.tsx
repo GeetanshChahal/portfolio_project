@@ -26,7 +26,6 @@ const Home = () => {
         <Experience />
         <Blogs />
         <RecentProjects />
-        {/* <Approach /> */}
         {/* Rate my Portfolio */}
         <Footer />
       </div>
