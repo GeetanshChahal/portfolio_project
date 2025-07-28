@@ -43,8 +43,15 @@ const Hero = () => {
 
           <span className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m a
-            <FlipWords words={["Frontend", "Backend", "Software"]} />
-            Developer based in India.
+            <FlipWords
+              words={[
+                "Data Scientist",
+                "AI Engineer",
+                "Full Stack Developer",
+                "Software Developer",
+              ]}
+            />
+            based in Germany.
           </span>
 
           <a href="mailto:geetanshchahal.dev@gmail.com">

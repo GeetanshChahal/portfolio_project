@@ -5,6 +5,7 @@ import {
   FaHome,
   FaLaptopCode,
   FaRegUserCircle,
+  FaGraduationCap,
 } from "react-icons/fa";
 import { IconType } from "react-icons";
 
@@ -17,9 +18,10 @@ export const navItems: {
   { id: 1, name: "", link: "", icon: FaHome },
   { id: 2, name: "About", link: "#about", icon: FaRegUserCircle },
   { id: 3, name: "Tech Stack", link: "#tech-stack", icon: FaLaptopCode },
-  { id: 4, name: "Experience", link: "#work-experience", icon: FaBriefcase },
-  { id: 5, name: "Blogs", link: "#blogs", icon: FaBook },
-  { id: 6, name: "Projects", link: "#projects", icon: FaDraftingCompass },
+  { id: 4, name: "Education", link: "#education", icon: FaGraduationCap },
+  { id: 5, name: "Experience", link: "#work-experience", icon: FaBriefcase },
+  { id: 6, name: "Blogs", link: "#blogs", icon: FaBook },
+  { id: 7, name: "Projects", link: "#projects", icon: FaDraftingCompass },
 ];
 
 export const gridItems = [

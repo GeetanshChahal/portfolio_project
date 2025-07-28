@@ -13,16 +13,19 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 import StepLoader from "@/components/StepLoader";
 import Blogs from "@/components/Blogs";
+import Education from "@/components/Education";
+import TimelineDemo from "@/components/TimelineDemo";
 
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        <StepLoader />
+        {/* <StepLoader /> */}
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         <Clients />
+        <Education />
         <Experience />
         <Blogs />
         <RecentProjects />
