@@ -68,12 +68,14 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Bachelor of Engineering",
-    description: "CSE (9.65 CGPA)",
+    title: "Certifications",
+    description: "20+ Certifications from reputable sites and organizations",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/chitkaraLogo-removebg-preview.png",
+    imgClassName:
+      "absolute inset-0 right-0 bottom-0 w-full h-full object-cover opacity-80",
+    titleClassName:
+      "absolute inset-0 w-full h-full flex flex-col items-center justify-center bg-black/40 text-[#CBACF9] text-center z-10 px-4 pointer-events-none",
+    img: "/certifications_collage.png",
     spareImg: "/grid.svg",
   },
   {
