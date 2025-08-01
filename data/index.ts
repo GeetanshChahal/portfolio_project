@@ -241,6 +241,31 @@ export const companies = [
     img: "/css-logo.svg",
     name: "css",
   },
+  {
+    id: 18,
+    img: "/pandas.svg",
+    name: "pandas",
+  },
+  {
+    id: 19,
+    img: "/sql.svg",
+    name: "sql",
+  },
+  {
+    id: 20,
+    img: "/python.svg",
+    name: "python",
+  },
+  {
+    id: 21,
+    img: "/jupyter.svg",
+    name: "jupyter",
+  },
+  {
+    id: 22,
+    img: "/numpy.svg",
+    name: "numpy",
+  },
 ];
 
 export const workExperience = [
