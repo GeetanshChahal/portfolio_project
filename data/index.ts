@@ -268,6 +268,11 @@ export const companies = [
     img: "/numpy.svg",
     name: "numpy",
   },
+  {
+    id: 23,
+    img: "/AI.svg",
+    name: "Artificial Intelligence",
+  },
 ];
 
 export const workExperience = [
