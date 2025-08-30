@@ -25,7 +25,7 @@ export default function TimelineDemo() {
               Computational Mathematics
             </span>
             <span className="rounded-full bg-yellow-100 px-3 py-1 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-100">
-              Data Analytics
+              Data Science
             </span>
             <span className="rounded-full bg-pink-100 px-3 py-1 text-pink-700 dark:bg-pink-900 dark:text-pink-100">
               Machine Learning
