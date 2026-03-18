@@ -245,7 +245,7 @@ export const companies = [
   },
   {
     id: 18,
-    img: "/pandas.svg",
+    img: "/pandas_img.svg",
     name: "pandas",
   },
   {
